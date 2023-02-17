@@ -15,7 +15,7 @@ pipeline{
         }
         stage('Test'){
             steps{
-                sh 'main/hello_exec'
+                sh 'mainn/hello_exec'
             }
         }
         stage('Deploy'){
